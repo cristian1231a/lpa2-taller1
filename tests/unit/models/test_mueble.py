@@ -7,7 +7,7 @@ class TestMueble:
     def test_es_clase_abstracta(self):
         # Verificar que Mueble es abstracta
         with pytest.raises(TypeError):
-                     = Mueble("Mesa", "Madera", 100.0)
+                    mueble = Mueble("Mesa", "Madera", 100.0)
 
     def test_tiene_metodos_abstractos(self):
         # Verificar que tiene métodos abstractos
